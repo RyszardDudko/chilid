@@ -1,0 +1,156 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3282ff;
+  color: #3a5071;
+  font-family: OpenSans-Bold;
+}
+
+.employee p {
+  color: #ffffff;  
+  font-size: 42px; 
+  text-align: center;
+  margin-top: 115px;
+}
+
+.employee img {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.table {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 392px;
+  flex-direction: column;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-row #id {
+  border-top-left-radius: 5px;   
+  /* flex-shrink: 5; */
+}
+
+.header-row #note {
+  border-top-right-radius: 5px;   
+}
+
+.seventh-row #note {
+  border-bottom-right-radius: 5px;   
+}
+
+.seventh-row #id {
+  border-bottom-left-radius: 5px;   
+}
+
+.header-row .fa {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.box1 {background: #e5eefb;}
+.box2 {background: #ffffff;}
+
+.header-row,
+.second-row,
+.third-row,
+.forth-row,
+.fifth-row,
+.sixth-row,
+.seventh-row {
+  display: inline-flex; 
+  text-align: center;
+}
+
+.header-title,
+.second-box,
+.third-box,
+.forth-box,
+.fifth-box,
+.sixth-box,
+.seventh-box {
+  /* width: 800px; */
+  height: 56px;
+  /* padding: 20px; */
+  flex: 1;
+  border-right: thin solid #989A9C; 
+}
+
+.header-row {
+  text-align: center;
+  font-weight: bold;
+  /* flex: 1; */
+}
+
+.header-title {
+  /* text-align: center; */
+  /* margin-top: 15px; */
+  /* margin: 5px; */
+  padding: 13px;
+  /* flex: 3; doesen't work*/
+}
+
+#id,
+#lastName,
+#company {
+  font-weight: bold;
+}
+
+.backnext {
+  color: #ffffff;
+  /* display: flex; */
+  border: 2px solid red;
+  /* text-align: center; */
+  /* margin-top: 27%; */
+  /* margin-left: 40%; */
+  /* width: 600px; */
+  display: flex;
+  font-size: 16px;
+  letter-spacing: 0.75px;
+  font-weight: bold;
+  /* text-align: center; */
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 30%;
+}
+
+.back,
+.next {
+  border: 2px solid green;
+  display: flex;
+  padding: 10px;
+}
+
+.numbers {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin: 0 auto;
+  /* flex: 1; */
+}
+
+.num {
+  padding: 10px;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+}
+
+.chilid img {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background: #ffffff; */
+  color: #ffffff;
+}
