@@ -1,4 +1,4 @@
-[
+var jsonData = [
   {
     "id": 1,
     "firstName": "Jan",
