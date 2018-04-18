@@ -35,7 +35,7 @@ function displayPaginatedData(data) {
   var sortedData = sortData(data.slice());
   return $('.table-container').pagination({
     dataSource: sortedData,
-    pageSize: 5,
+    pageSize: 6,
     callback: function(data, pagination) {
       var html = _.map(data, function(d) { return template(d) }).join('');
       $('.data-rows').html(html);
